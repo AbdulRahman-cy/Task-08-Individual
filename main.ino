@@ -9,8 +9,8 @@ const int ENA = PA0; // Supports PWM
 const int DIR = PB14; // GPIO
 const int PWM = PA1; // Supports PWM
 
-const int RPWM = PA2;
-const int LPWM = PA3;
+const int RPWM = PA2; // Supports PWM
+const int LPWM = PA3; // Supports PWM
 
 L298N L298N_driver(IN1, IN2, ENA);
 Cytron Cytron_driver(DIR, PWM);
