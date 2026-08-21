@@ -4,6 +4,7 @@
 #endif
 
 #include <MotorDriver.h>
+#include <Arduino.h>
 
 // Define the L298N class which inherits from the MotorDriver class
 class L298N : public MotorDriver {
