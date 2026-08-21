@@ -3,7 +3,6 @@
 #define L298N_H
 #endif
 
-#include <Arduino.h>
 #include <MotorDriver.h>
 
 // Define the L298N class which inherits from the MotorDriver class
