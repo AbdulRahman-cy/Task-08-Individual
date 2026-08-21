@@ -1,6 +1,6 @@
 // Include the necessary header files
 #include "Cytron.h"
-#include "Arduino.h"
+
 
 // Constructor
 Cytron::Cytron(int DIR, int PWM) {
