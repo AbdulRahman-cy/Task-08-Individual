@@ -7,7 +7,6 @@ const int ENA = PA0; // Supports PWM
 
 L298N L298N_driver(IN1, IN2, ENA);
 
-int speed;
 
 void setup() {
 
