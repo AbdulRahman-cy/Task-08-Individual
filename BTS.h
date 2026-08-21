@@ -1,9 +1,9 @@
 #ifndef BTS_H
-    #define BTS_H
-#endif
+#define BTS_H
 
-#include <MotorDriver.h>
-#include <Arduino.h>
+
+#include "MotorDriver.h"
+
 
 class BTS : public MotorDriver {
 public:
@@ -20,4 +20,5 @@ private:
     // Define private variables
     int _RPWM;
     int _LPWM;
-}
+};
+#endif

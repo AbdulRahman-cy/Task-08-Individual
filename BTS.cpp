@@ -18,11 +18,11 @@ void BTS::drive(int speed) {
         analogWrite(_LPWM, 0);
     }
     else if (speed < 0) {
-        analogWrite(_RPWM = 0);
-        analogWrite(_LPWM = abs(speed));
+        analogWrite(_RPWM, 0);
+        analogWrite(_LPWM, abs(speed));
     }
     else {
-        analogWrite(_RPWM = 0);
-        analogWrite(_LPWM = 0);  
+        analogWrite(_RPWM, 0);
+        analogWrite(_LPWM, 0);  
     }
 }

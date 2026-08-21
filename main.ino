@@ -20,13 +20,13 @@ BTS BTS_driver(RPWM, LPWM);
 void setup() {
 
     // Initialize L298N motor driver
-    L298N_driver.init()
+    L298N_driver.init();
 
     // Initialize Cytron motor driver
-    Cytron_driver.init()
+    Cytron_driver.init();
 
     // Initialize BTS motor driver
-    BTS_driver.init()
+    BTS_driver.init();
 
 
 }

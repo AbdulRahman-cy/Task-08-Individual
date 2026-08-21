@@ -1,10 +1,9 @@
 // If this header file is already included, ignore it.
 #ifndef L298N_H
 #define L298N_H
-#endif
 
-#include <MotorDriver.h>
-#include <Arduino.h>
+
+#include "MotorDriver.h"
 
 // Define the L298N class which inherits from the MotorDriver class
 class L298N : public MotorDriver {
@@ -25,3 +24,4 @@ private:
     int _IN2;
     int _ENA;
 };
+#endif

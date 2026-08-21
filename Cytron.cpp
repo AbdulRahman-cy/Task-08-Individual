@@ -27,5 +27,5 @@ void Cytron::drive(int speed) {
     }
 
     // Write the speed to the PWM pin
-    analogWrite(_PWM, abs(speed))
+    analogWrite(_PWM, abs(speed));
 }
