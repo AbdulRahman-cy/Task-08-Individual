@@ -12,7 +12,7 @@ class L298N : public MotorDriver {
 public:
 
     // Constructor to initialize the L298N with the pins
-    L298N(int in1Pin, int in2Pin, int enablePin);
+    L298N(int IN1, int IN2, int ENA);
 
     // Override the init and drive methods from the MotorDriver class
     void init() override;
@@ -21,7 +21,7 @@ public:
 private:
 
     // Define private member variables to store the pins
-    int _in1Pin;
-    int _in2Pin;
-    int _enablePin;
+    int _IN1;
+    int _IN2;
+    int _ENA;
 };
